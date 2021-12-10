@@ -1,0 +1,4 @@
+node_modules\react-native\Libraries\Core\Timers\JSTimers.js
+
+
+there is a function const MAX_TIMER_DURATION_MS = 60 * 1000 and I increased the time to be 60 * 100000 and it stopeed appearing
