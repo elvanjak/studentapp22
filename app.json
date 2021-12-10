@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "studentapp22",
-    "slug": "studentapp22",
+    "name": "student-app-rn5",
+    "slug": "student-app-rn5",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -11,19 +11,35 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 5000
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier":"com.corona.online.students-test",
+      "buildNumber":"1.0.0"
     },
     "android": {
+      "package":"com.corona.online.students_test", 
+      "versionCode":1,
+      "useNextNotificationsApi": true,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage" : "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+         "CAMERA",
+         "WRITE_EXTERNAL_STORAGE"
+    ],
+    "config":{
+    "googleMaps": {
+      "apiKey": "AIzaSyB0VT4VPcvHLpnz6yd3tY39Ges-yba3h64"
+    }
+  }
+    
     },
     "web": {
       "favicon": "./assets/favicon.png"
