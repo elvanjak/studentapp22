@@ -3,7 +3,7 @@ export const SIGNUP = 'SIGNUP';
 export const LOGIN = 'LOGIN';
 export const LOGOUT = 'LOGOUT';
 export const DID_T_LI = 'DID_T_LI';
-export const student_app = 'AIzaSyB0VT4VPcvHLpnz6yd3tY39Ges-yba3h64';
+export const student_app = 'Your key....';
 const singupURL = `https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=${student_app}`;
 const loginURL = `https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=${student_app}`;
 import { getProfile } from '../../sqlite/db';
